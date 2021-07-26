@@ -26,3 +26,7 @@ https://github.com/luxpmsoft/coding_test_luxpm
 8. Please follow the code structure within the framework I have shared with you.
 
        Comments : Followed same code structure, but initial code misses some files like 'response' and 'middleware', so please add those if needed.
+
+
+        Clone repo from below git url : https://github.com/deependra03/luxpm_code.git
+        And checkout master 

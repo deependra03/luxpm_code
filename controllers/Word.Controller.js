@@ -1,6 +1,5 @@
 const db = require('../config/sequelize');
-const Word = db.words;
-//const Response = require('./response');
+const Word = db.words;;
 var utilityService = require('../services/Utility.services');
 
 exports.callpyscriptandinsertdb = async (req, res) => {
@@ -28,8 +27,3 @@ exports.callpyscriptandinsertdb = async (req, res) => {
          }
     })
 }
-
-exports.insert = async (obj) => {
-    return await Word.create(obj)
-}
-
